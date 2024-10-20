@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Google Mail",
+	"behavior": "create",
+	"noteContentFormat": "\n#webclip/unread\n\n# {{title}}\n\n{{selectorHtml:div.a3s|replace:\"tbody\":\"\"|replace:\"table\":\"\"|replace:\"td\":\"\"|replace:\"tr\":\"\"|markdown|strip_tags:(\"border\")|replace:\"<>\":\"\"|replace:\"     \":\"\"|replace:\"    \":\"\"}}\n",
+	"properties": [
+		{
+			"name": "created",
+			"value": "{{time|date:\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "reviewed",
+			"value": "",
+			"type": "datetime"
+		},
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\",\\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://mail.google.com/mail"
+	],
+	"noteNameFormat": "{{published|date:\"YYYY-MM-DD\"}} WEB {{title|safe_name}}",
+	"path": "webclips"
+}
