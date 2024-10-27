@@ -73,11 +73,16 @@
 			"name": "duration",
 			"value": "{{schema:@PodcastEpisode:duration}}",
 			"type": "text"
+		},
+		{
+			"name": "status",
+			"value": "",
+			"type": "text"
 		}
 	],
 	"triggers": [
 		"https://podcasts.apple.com/"
 	],
 	"noteNameFormat": "{{schema:@PodcastEpisode:datePublished|date:\"YYYY-MM-DD\"}} PODCAST {{schema:@PodcastEpisode:partOfSeries.name|safe_name}} {{schema:@PodcastEpisode:episodeNumber}} {{schema:@PodcastEpisode:name|safe_name}}",
-	"path": "podcasts"
+	"path": ""
 }
