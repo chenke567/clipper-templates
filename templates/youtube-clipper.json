@@ -45,13 +45,13 @@
 			"type": "text"
 		},
 		{
-			"name": "watched",
-			"value": "",
+			"name": "thumbnailUrl",
+			"value": "{{schema:@VideoObject:thumbnailUrl|first}}",
 			"type": "text"
 		},
 		{
-			"name": "thumbnailUrl",
-			"value": "{{schema:@VideoObject:thumbnailUrl|first}}",
+			"name": "watched",
+			"value": "",
 			"type": "text"
 		}
 	],
