@@ -2,7 +2,7 @@
 	"schemaVersion": "0.1.0",
 	"name": "nordnet.no blogg",
 	"behavior": "create",
-	"noteContentFormat": "\n#webclip/unread\n\n# {{title}}\n\n{{selectorHtml:article.post|first|remove_html:(\"#fa-morgenrapportene-sendt-pa-e-post,.author-below-and-content-below-wrap,iframe\")|markdown}}",
+	"noteContentFormat": "\n#webclip/unread\n\n{{highlights|map: item => item.text|join:\"\\n\"|blockquote}}\n\n# {{title}}\n\n{{selectorHtml:article.post|first|remove_html:(\"#fa-morgenrapportene-sendt-pa-e-post,.author-below-and-content-below-wrap,iframe\")|markdown}}",
 	"properties": [
 		{
 			"name": "created",
