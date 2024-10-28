@@ -32,7 +32,7 @@
 		{
 			"name": "related",
 			"value": "[[Videos]]",
-			"type": "text"
+			"type": "multitext"
 		},
 		{
 			"name": "published",
@@ -47,6 +47,11 @@
 		{
 			"name": "watched",
 			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "thumbnailUrl",
+			"value": "{{schema:@VideoObject:thumbnailUrl|first}}",
 			"type": "text"
 		}
 	],
