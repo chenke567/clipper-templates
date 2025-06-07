@@ -2,47 +2,62 @@
 	"schemaVersion": "0.1.0",
 	"name": "YouTube",
 	"behavior": "create",
-	"noteNameFormat": "{{schema:author|safe_name|trim}} – {{schema:name|safe_name|trim}}",
-	"path": "Clipppings/Videos",
-	"noteContentFormat": "![{{schema:name}}]({{url}})",
+	"noteContentFormat": "## About\n\ntype:: #type/video/youtube/new\n\n![{{title}}]({{schema:@VideoObject:embedUrl|replace:\"embed/\":\"watch?v=\"}})\n\n## Description\n\n{{schema:@VideoObject:description}}\n\n## Notes\n\nYT=",
 	"properties": [
 		{
-			"name": "title",
-			"value": "{{schema:name}}",
+			"name": "created",
+			"value": "{{time|date:\\\"YYYY-MM-DDTHH:mm:ssZ\\\"}}",
+			"type": "datetime"
+		},
+		{
+			"name": "reviewed",
+			"value": "",
+			"type": "datetime"
+		},
+		{
+			"name": "url",
+			"value": "{{schema:@VideoObject:embedUrl|replace:\\\"embed/\\\":\\\"watch?v=\\\"}}",
 			"type": "text"
 		},
 		{
-			"name": "author",
-			"value": "{{schema:author|wikilink}}",
+			"name": "title",
+			"value": "{{schema:@VideoObject:name}}",
+			"type": "text"
+		},
+		{
+			"name": "channel",
+			"value": "{{schema:@VideoObject:author}}",
+			"type": "text"
+		},
+		{
+			"name": "related",
+			"value": "[[Videos]]",
 			"type": "multitext"
 		},
 		{
 			"name": "published",
-			"value": "{{schema:uploadDate|date:YYYY-MM-DD}}",
-			"type": "date"
+			"value": "{{schema:@VideoObject:uploadDate|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "datetime"
 		},
 		{
-			"name": "source",
-			"value": "{{url}}",
+			"name": "thumbnailUrl",
+			"value": "{{schema:@VideoObject:thumbnailUrl|first}}",
 			"type": "text"
 		},
 		{
-			"name": "image",
-			"value": "{{schema:thumbnailUrl|slice:0}}",
+			"name": "duration",
+			"value": "{{schema:@VideoObject:duration|replace:\\\"PT\\\",\\\"\\\",\\\"S\\\",\\\"\\\"|duration}}",
 			"type": "text"
 		},
 		{
-			"name": "created",
-			"value": "{{date}}",
-			"type": "text"
-		},
-		{
-			"name": "tags",
-			"value": "videos",
+			"name": "watched",
+			"value": "",
 			"type": "text"
 		}
 	],
 	"triggers": [
-		"https://www.youtube.com/watch?v="
-	]
+		"https://www.youtube.com/watch"
+	],
+	"noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} VIDEO {{schema:@VideoObject:author}} - {{schema:@VideoObject:name|safe_name|trim}}",
+	"path": ""
 }

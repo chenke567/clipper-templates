@@ -37,3 +37,10 @@ Specific Websites
 - [Redfin](/templates/redfin-clipper.json)
 - [Wikipedia](/templates/wikipedia-clipper.json)
 - [Youtube](/templates/youtube-clipper.json)
+
+# Fork
+this repo is fork from
+1. https://github.com/kepano/clipper-templates/tree/main/templates
+2. https://github.com/esodesod/obsidian-web-clipper-templates
+3. https://github.com/pressdarling/obsidian-web-clipper-templates
+4. https://github.com/obsidian-community/web-clipper-templates
