@@ -44,5 +44,5 @@
 		"https://core.vmware.com/blog"
 	],
 	"noteNameFormat": "{{selector:div[class=\"blog-date\"]|date:\"YYYY-MM-DD\"}} WEB {{title|safe_name}}",
-	"path": "webclips"
+	"path": "Clippings"
 }

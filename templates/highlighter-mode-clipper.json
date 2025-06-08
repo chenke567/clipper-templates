@@ -6,5 +6,5 @@
 	"properties": [],
 	"triggers": [],
 	"noteNameFormat": "{{published|date:\"YYYY-MM-DD\"}} WEB {{title|safe_name}}",
-	"path": "webclips"
+	"path": "Clippings"
 }

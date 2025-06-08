@@ -44,5 +44,5 @@
 		"/^https:\\/\\/[a-z]{2,3}\\.wikipedia\\.org\\/wiki\\/?$/"
 	],
 	"noteNameFormat": "{{title|safe_name|trim}}",
-	"path": "Clippings/Wikipedia"
+	"path": "Clippings"
 }

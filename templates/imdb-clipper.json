@@ -3,7 +3,7 @@
 	"name": "IMDB",
 	"behavior": "create",
 	"noteNameFormat": "{{schema:name|safe_name|trim}}",
-	"path": "Clippings/Media",
+	"path": "Clippings",
 	"noteContentFormat": "",
 	"properties": [
 		{

@@ -3,7 +3,7 @@
 	"name": "IMDB reference",
 	"behavior": "create",
 	"noteNameFormat": "{{meta:name:title|split:\" - IMDb\"|slice:0,1|safe_name|trim}}",
-	"path": "Clippings/Media",
+	"path": "Clippings",
 	"noteContentFormat": "",
 	"properties": [
 		{

@@ -7,7 +7,7 @@ permalink: youtube/youtube-with-transcript
 tags:
 ---
 
-Related guide: [[Clipper-guides/Obsidian Web Clipper Template Guide for YouTube with transcript]]
+Related guide: [Obsidian Web Clipper Template Guide for YouTube with transcript](./Obsidian Web Clipper Template Guide for YouTube with transcript.md)
 
 This template should be able to extract:
 - video **upload date**, using `schema:@VideoObject:uploadDate`

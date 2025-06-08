@@ -44,5 +44,5 @@
 		"https://notebooklm.google.com/notebook/"
 	],
 	"noteNameFormat": "{{selectorHtml:.title-label-inner|strip_tags|safe_name}}",
-	"path": "Clippings/Chats/NotebookLM"
+	"path": "Clippings"
 }

@@ -3,7 +3,7 @@
 	"name": "Letterboxd",
 	"behavior": "create",
 	"noteNameFormat": "{{selector:.filmtitle|safe_name|trim}}",
-	"path": "Clippings/Media",
+	"path": "Clippings",
 	"noteContentFormat": "",
 	"properties": [
 		{

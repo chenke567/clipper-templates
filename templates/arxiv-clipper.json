@@ -3,7 +3,7 @@
 	"name": "arXiv",
 	"behavior": "create",
 	"noteNameFormat": "{{title|safe_name|trim}}",
-	"path": "Clippings/Research",
+	"path": "Clippings",
 	"noteContentFormat": "{{content}}",
 	"properties": [
 		{

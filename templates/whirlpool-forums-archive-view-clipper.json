@@ -54,6 +54,6 @@
 		"https://forums.whirlpool.net.au/archive/"
 	],
 	"noteNameFormat": "{{title|safe_name}}",
-	"path": "Clippings/Posts",
+	"path": "Clippings",
 	"context": "# {{title|safe_name}}\n\n{{selectorHtml:body|markdown}}"
 }

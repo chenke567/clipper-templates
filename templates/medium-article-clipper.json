@@ -44,5 +44,5 @@
 		"https://medium.com"
 	],
 	"noteNameFormat": "{{schema:@NewsArticle:datePublished|date:\"YYYY-MM-DD\"}} MEDIUM {{schema:@NewsArticle:headline|safe_name}}",
-	"path": "Clippings/Posts/Medium"
+	"path": "Clippings"
 }

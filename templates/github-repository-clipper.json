@@ -47,5 +47,5 @@
 	],
 	"triggers": [],
 	"noteNameFormat": "{{selector:relative-time?datetime|first|date:\"YYYY-MM-DD\"}} GITHUB {{meta:name:octolytics-dimension-user_login}} {{selector:#repo-title-component a}}: {{selector:.Layout-sidebar p|first}}",
-	"path": "webclips"
+	"path": "Clippings"
 }

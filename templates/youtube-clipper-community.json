@@ -59,4 +59,5 @@
 		"https://www.youtube.com/watch"
 	],
 	"noteNameFormat": "{{schema:@VideoObject:uploadDate|date:\"YYYY-MM-DD\"}} VIDEO {{schema:@VideoObject:author}} - {{schema:@VideoObject:name|trim|safe_name}}",
-	"path": "Clipppings/Videos"
+	"path": "Clipppings"
+}

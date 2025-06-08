@@ -44,5 +44,5 @@
 		"https://gemini.google.com/app/"
 	],
 	"noteNameFormat": "{{title|safe_name}}",
-	"path": "Clippings/Chats/Gemini"
+	"path": "Clippings"
 }

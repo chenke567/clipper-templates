@@ -44,5 +44,5 @@
 		"https://claude.ai/chat"
 	],
 	"noteNameFormat": "{{title|safe_name}}",
-	"path": "Clippings/Chats/Claude"
+	"path": "Clippings"
 }

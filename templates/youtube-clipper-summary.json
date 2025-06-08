@@ -1,6 +1,6 @@
 {
 	"schemaVersion": "0.1.0",
-	"name": "Youtube",
+	"name": "Youtube - summary",
 	"behavior": "create",
 	"noteContentFormat": ">[!summary]- Summary\n{{\"a bulleted summary of the youtube transcript\"|blockquote}}\n\n{{content}}\n\n# Transcript\n{{selectorHtml:.ytd-transcript-segment-list-renderer|replace:\\\"&nbsp;\\\":\\\" \\\"|join|markdown}}",
 	"properties": [
@@ -34,5 +34,5 @@
 		"https://www.youtube.com"
 	],
 	"noteNameFormat": "{{title}}",
-	"path": "_📥 Inbox"
+	"path": "Clippings"
 }

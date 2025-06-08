@@ -54,6 +54,6 @@
 		"https://old.reddit.com/r/"
 	],
 	"noteNameFormat": "{{title|safe_name}} - r-{{selector:span.redditname}}",
-	"path": "Clippings/Posts/Reddit",
+	"path": "Clippings",
 	"context": "# {{title|safe_name}}\n\n{{selectorHtml:body|markdown|replace:\"/\\(\\d?)\\\\(\\.)/g\":\"$1$2\"|replace:\"/(\\n)\\\\/g\":\"\"}}"
 }
